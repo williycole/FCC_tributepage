@@ -1,0 +1,126 @@
+<style>
+/*"Mobile-first is when we start by writing our CSS for mobile devices and then use media queries to add in styling for larger screen sizes."
+"In general, that means that media queries use a min-width."*/
+html{
+	font-size: 10px;
+}
+main{
+  background-color:	rgb(211,211,211);
+  margin: 0 auto 0 auto;
+  border: 0;
+}
+title{
+	font-size: 25px;
+ 	margin: 0 auto 50px auto;
+  	font-family: sans-serif;
+}
+h1{
+	display: block;
+  	margin: 0 auto 0 auto;
+	width: 50%;
+	text-align:center;
+	font-family: sans-serif;
+}
+ul{
+	list-style-type: none;
+ 	padding-left:0;
+  	margin: 0 auto 0 auto;
+	text-align: left;
+	min-width: 35% ;
+	font-family: monospace;
+	line-height: 1.2;
+	}	
+li {
+	font-size: 10px;
+	color: white;
+	text-align: left;
+	}
+@media (min-width: 700px){
+  li{
+    font-size: 14px;
+  }
+}
+.gray-box{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 100%;
+	background-color: gray;
+	}
+.gray-box2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 100%;
+	background-color: gray;
+	font-size: 11px;
+}
+@media (min-width: 700px) {
+		.black-box{
+		display: block;
+	}
+}
+.black-box{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	background-color: black;
+}
+
+h2{
+	font-size: 12px;
+  	margin: 0 auto 0 auto;
+	width: 50%;
+	text-align: center;
+	max-width: 800px;
+}
+@media(min-width: 700px){
+	h2 {
+		font-size: 17px;
+	}
+}
+h3{
+	font-size: 14px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	line-height: 1.9;
+}
+a{
+	font-size: 14px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+#img-caption{
+	font-size: 11px;
+	margin: 0 auto 50px auto;
+	text-align: center;
+	max-width: 900px;
+}
+@media(min-width: 700px){
+	#img-caption {
+		font-size: 15px;
+	}
+}
+#img-div{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 14px;
+	font-family: monospace;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 50%;
+}
+#span{
+color: green;
+}
+#term-space{
+word-spacing: 1em;
+}
+</style>
