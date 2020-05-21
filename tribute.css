@@ -68,7 +68,7 @@ li {
 	background-color: black;
 }
 
-h2{
+h1{
 	font-size: 12px;
   	margin: 0 auto 0 auto;
 	width: 50%;
@@ -76,11 +76,11 @@ h2{
 	max-width: 800px;
 }
 @media(min-width: 700px){
-	h2 {
+	h1 {
 		font-size: 17px;
 	}
 }
-h3{
+h2{
 	font-size: 14px;
 	margin: 0 auto 0 auto;
 	text-align: center;
