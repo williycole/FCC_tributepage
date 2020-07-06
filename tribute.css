@@ -10,9 +10,12 @@ main{
   border: 0;
 }
 h1{
-	font-size: 25px;
- 	margin: 0 auto 50px auto;
-  	font-family: sans-serif;
+	font-size: 30px;
+ 	margin: 0 auto 0 auto;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	background-color:	rgba(67, 156, 172, 0.795);
+	padding-bottom: 60px;
 }
 h2{
 	font-size: 12px;
@@ -20,6 +23,8 @@ h2{
 	width: 50%;
 	text-align: center;
 	max-width: 800px;
+	font-family: 'Courier New', Courier, monospace;
+	background-color:	rgba(67, 156, 172, 0.795);
 }
 @media(min-width: 700px){
 	h2 {
@@ -32,7 +37,7 @@ ul{
   	margin: 0 auto 0 auto;
 	text-align: left;
 	min-width: 35% ;
-	font-family: monospace;
+	font-family: 'Courier New', Courier, monospace;
 	line-height: 1.2;
 	}	
 li {
@@ -71,6 +76,8 @@ li {
 	margin-right: auto;
 	max-width: 900px;
 	background-color: black;
+	border-style: ridge;
+	border-width: 4px;
 }
 h3{
 	font-size: 12px;
